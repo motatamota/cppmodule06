@@ -1,6 +1,6 @@
-NAME = ex00
-FLAG = -Wall -Wextra -Werror -std=c++98
-SRC = main.cpp ScalarConverter.cpp
+NAME = ex01
+FLAG = -Wall -Wextra -Werror
+SRC = main.cpp Serializer.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 

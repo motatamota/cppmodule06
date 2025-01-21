@@ -1,4 +1,4 @@
-NAME = ex00
+NAME = ex02
 FLAG = -Wall -Wextra -Werror -std=c++98
 SRC = main.cpp ScalarConverter.cpp
 OBJ = $(SRC:.cpp=.o)

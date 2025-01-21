@@ -9,6 +9,8 @@ class ScalarConverter
 {
 private:
 	ScalarConverter();
+	ScalarConverter(const ScalarConverter &other);
+	ScalarConverter &operator=(const ScalarConverter &other);
 	static bool IsSpecial(const std::string &str);
 	static void	OutputChar(const std::string &str);
 	static void	OutputInt(const std::string &str);
@@ -17,9 +19,7 @@ private:
 	static bool	IsLowerNum(const std::string &str);
 
 public:
-	ScalarConverter(const ScalarConverter &other);
-	ScalarConverter &operator=(const ScalarConverter &other);
-	virtual ~ScalarConverter() = 0;
+	~ScalarConverter();
 
 	static void	convert(const std::string &str);
 	class NonDisplayableException : public std::exception
