@@ -1,6 +1,6 @@
 NAME = ex02
 FLAG = -Wall -Wextra -Werror -std=c++98
-SRC = main.cpp ScalarConverter.cpp
+SRC = main.cpp F.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 
