@@ -21,7 +21,7 @@ ScalarConverter::~ScalarConverter()
 
 bool	ScalarConverter::IsSpecial(const std::string &str)
 {
-	return (str == "nan" || str == "-inf" || str == "+inf");
+	return (str == "nan" || str == "-inf" || str == "+inf" || str == "-nan");
 }
 
 //強固な数字排除
