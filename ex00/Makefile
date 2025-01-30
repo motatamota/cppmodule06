@@ -2,7 +2,7 @@ NAME = convert
 FLAG = -Wall -Wextra -Werror -std=c++98
 SRC = main.cpp ScalarConverter.cpp
 OBJ = $(SRC:.cpp=.o)
-CC = g++
+CC = c++
 
 all: $(NAME)
 

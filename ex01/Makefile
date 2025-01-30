@@ -2,7 +2,7 @@ NAME = ex01
 FLAG = -Wall -Wextra -Werror
 SRC = main.cpp Serializer.cpp
 OBJ = $(SRC:.cpp=.o)
-CC = g++
+CC = c++
 
 all: $(NAME)
 
